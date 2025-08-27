@@ -40,8 +40,11 @@ Bash
 # You will be presented with a command-line menu with the following options:
 
 Press 1 to Collect Sample Faces: This will open your camera and begin capturing 100 images of your face.
+
 Press 2 to Train the Model: This action uses the images in the faces/ directory to train the recognition model.
+
 Press 3 to Test the Model: This will open a new camera window and perform real-time face recognition.
+
 Press 4 to Exit the App.
 
 # Project Structure
