@@ -36,22 +36,17 @@ To start the application, simply run the main.py file from your terminal:
 
 Bash
 # python main.py
-You will be presented with a command-line menu with the following options:
 
-# Press 1 to Collect Sample Faces: This will open your camera and begin capturing 100 images of your face.
+# You will be presented with a command-line menu with the following options:
 
-# Press 2 to Train the Model: This action uses the images in the faces/ directory to train the recognition model.
-
-# Press 3 to Test the Model: This will open a new camera window and perform real-time face recognition.
-
-# Press 4 to Exit the App.
+Press 1 to Collect Sample Faces: This will open your camera and begin capturing 100 images of your face.
+Press 2 to Train the Model: This action uses the images in the faces/ directory to train the recognition model.
+Press 3 to Test the Model: This will open a new camera window and perform real-time face recognition.
+Press 4 to Exit the App.
 
 # Project Structure
 
-# main.py: The main application script containing the logic for all features.
-
-# haarcascade_frontalface_default.xml: The pre-trained XML file for face detection.
-
+main.py: The main application script containing the logic for all features.
+haarcascade_frontalface_default.xml: The pre-trained XML file for face detection.
 trained_data.xml: (Generated after training) The trained face recognition model.
-
 faces/: (Generated after collecting faces) A directory where the sample images are stored.
