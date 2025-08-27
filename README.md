@@ -50,6 +50,9 @@ Press 4 to Exit the App.
 # Project Structure
 
 main.py: The main application script containing the logic for all features.
+
 haarcascade_frontalface_default.xml: The pre-trained XML file for face detection.
+
 trained_data.xml: (Generated after training) The trained face recognition model.
+
 faces/: (Generated after collecting faces) A directory where the sample images are stored.
